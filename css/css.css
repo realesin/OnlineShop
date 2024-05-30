@@ -1,0 +1,432 @@
+body{
+	 background-color:#6e2e2e;
+	 background-repeat: no-repeat;
+	 }
+
+header{
+	background-color: #000000;
+	margin: auto;
+	height: 50%;
+	font-size:100%;
+	text-align:center;
+}
+#p1{
+ display:inline;
+}
+.logo{
+	margin-right:0em;
+}
+.navigation a{
+	background-color: #000000;
+	color:white;
+	margin:auto;
+
+}
+#btn1:hover{
+	background-color:#000000;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+ position: relative;
+  margin: auto;
+  border-radius:20px;
+} 
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  z-index: 60;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot{
+	margin-top: 80px;
+}
+
+.active, .dot:hover {
+  background-color: #7c7c7c;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+#pic{
+	width:60vw;
+	height:50vw;
+	max-height: 400px;
+	}
+
+
+.text1{
+	font-size: 120%;
+	border-radius:20px;
+	background-color:#000000;
+	color:white;
+	text-align:center;
+	font-weight:bold;
+	height:10%;
+	max-width: 100%;
+	display:flex;
+	}
+	
+footer{
+	clear:both;
+	position:relative;
+        top:300px;
+		height:40%;
+		width:100%;
+		background-color:#000000;
+		color:#f2f2f2
+	} 
+	footer p{
+		text-align: center;
+		font-size: 30px;
+	}
+	a{
+		color:white;
+		text-decoration: none;
+		background-color: #000000;
+	}
+
+ .text2{
+	 position:relative;
+	 top: 60px;
+	 border-radius:20px;
+	 background-color:#000000;
+	 color:white;
+	 text-align:center;
+	 font-weight:bold;
+	 height:40px;
+	 margin-bottom: 300px;
+ }
+ .poruchajsega{
+	margin:auto;
+	margin-top: 500px;
+ }
+
+ #p2{
+	 position:relative;
+	 top:10px;
+ }
+ #season{
+ position:relative;
+ top:500px;
+ left:50%;
+ }
+
+ .ЕсенЗима
+ {
+    /*position: relative;*/
+	margin: auto;
+	border-radius:20px;
+	max-width: 90%;
+ }
+
+ .namaleniqsezonni1
+ {
+
+	display:flex;
+	float: left;
+	width: 33%;
+	height: 450px;
+
+ }
+#kolekciq
+{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+#promocii
+{
+	max-width:100%;
+	display:flex;
+    max-height: 60%;
+	margin-left:1em;
+}
+
+.zanas
+{
+	
+	display: flex;
+	font-size: 60px;
+}
+.zanas a{
+margin:auto;
+	display: flex;
+}
+
+#istoriq
+{
+display:flex; 
+position: relative;
+text-align: center;
+color:white;
+}
+.text3{
+	font-size: 120%;
+	border-radius:20px;
+	background-color:#000000;
+	color:white;
+	text-align:center;
+	font-weight:bold;
+	height:10%;
+	max-width: 100%;
+	display:flex;
+   }
+   #snimkimagazin
+{
+	display: flex;
+	margin:auto;
+
+}
+#snimkimagazin2
+{
+	display: flex;
+	margin:auto; 
+}
+.text4
+{
+	display:flex; 
+	position: relative;
+	text-align: center;
+	color:white;
+}
+#etaj2
+{
+	font-size: 120%;
+	border-radius:20px;
+	background-color:#000000;
+	color:white;
+	text-align:center;
+	font-weight:bold;
+	height:10%;
+	max-width: 100%;
+	display:flex;
+}
+#materii
+{
+display: flex;
+margin:auto;
+
+}
+   
+#info
+{
+	color: #f2f2f2;
+ background-color: #000000;
+ border-radius: 10px;
+ text-align: center;
+}
+  
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+
+  nav ul li {
+	display: inline;
+	margin-right: 20px;
+  }
+
+  .cart-icon {
+	cursor: pointer;
+  }
+
+  .container {
+	padding: 20px;
+	text-align: center;
+  }
+
+  .products-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+
+  .product {
+	margin: 20px;
+	width: 500px;
+	height: 350px;
+	text-align: center;
+  }
+
+  .product img {
+	width: 200px;
+	height: 200px;
+  }
+
+  .cart {
+	position: fixed;
+	top: 50px;
+	right: 20px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 10px;
+  }
+
+  footer {
+	background-color: #000000;
+	padding: 10px;
+	text-align: center;
+  }
+  .kartaa{
+	height: 300px;
+	justify-content: center;
+	display: flex;
+	width: 100%;
+  }
+ li a {
+	display: block;
+	width: 60px;
+	background-color: #dddddd;
+  }
+  nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  }
+
+  nav ul li {
+	display: inline;
+	margin-right: 20px;
+  }
+
+  .cart-icon {
+	cursor: pointer;
+  }
+
+  .container {
+	padding: 20px;
+	text-align: center;
+  }
+
+  .products-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+
+  .product {
+	margin: 20px;
+	text-align: center;
+  }
+
+  .product img {
+	width: 200px;
+	height: auto;
+  }
+
+  .cart {
+	position: flex;
+	top: 50px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 10px;
+  }
+
+  footer {
+	background-color: #000000;
+	padding: 10px;
+	text-align: center;
+  }
+  ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+.sections
+{
+	background-color: none;
+}
+
+.chervenText{
+	background-color:#000000;
+	width: 100px;
+	position:flex;
+
+}
+.container5{
+	background-color: #6e2e2e;
+	position:flex;
+	margin:auto;
+	margin-top: 7%;
+	color:#fff;
+}
+input[type=submit] {
+	background-color: #6e2e2e;
+	color:#000000;
+	padding: 12px 20px;
+	border: white;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #000000;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+}

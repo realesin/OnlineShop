@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/css.css">
+  <title>Магазин</title>
+  <link rel="icon" type="images/X-icon" href="images/logo1.png"/>
+  <script src="java script/java script.js" defer></script>
+  <style>
+    
+</style>
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+
+      <img class="logo" src="images/logo.PNG" >
+      <nav class="navigation">
+        | <a href="Начало.html">Начало</a> |
+        <a href="За нас.html">За нас</a> |
+        <a href="Магазин.html">Магазин</a> |
+        <a href="Промоции.html">Промоции</a> |
+        <a href="Контакти.html">Контакти</a> 
+      </nav>
+    </ul>
+  </nav>
+  <div class="cart-icon" onclick="toggleCart()">Cart (<span id="cart-count">0</span>)</div>
+</header>
+<ul>
+  <div class="sections">
+  <li><a class="chervenText" href="section1.html">летни дрехи</a></li>
+  <br>
+  <li><a class="chervenText" href="section2.html">обувки колани </a></li>
+  <br>
+  <li><a class="chervenText" href="section3.html">зимни дрехи</a></li>
+  <br>
+  <li><a class="chervenText" href="section4.html">дрехи за ценители</a></li>
+</div>
+</ul> 
+<div class="container">
+  <h2>Дрехи за ценители</h2>
+  <div class="products-container">
+    <div class="product">
+        <img src="images/kolan.png" alt="Product 4">
+        <p>Колан от естествена кожа</p>
+        <button onclick="addToCart('Product 4', 12.99)">20,99лв</button>
+      </div>
+  
+    <div class="product">
+        <img src="images/sako.png" alt="Елегантно сако">
+        <p>Елегантно сако</p>
+        <button onclick="addToCart('Product 4', 12.99)">103,59лв</button>
+      </div>
+    <div class="product">
+        <img src="images/riza.png" alt="Риза">
+        <p>Риза</p>
+        <button onclick="addToCart('Product 4', 12.99)">43,99лв</button>
+      </div>
+      <div class="product">
+        <img src="images/chernariza.png" alt="Риза">
+        <p>Риза</p>
+        <button onclick="addToCart('Product 4', 12.99)">73,99лв</button>
+      </div>
+</div>
+
+
+    <div class="cart" id="cart">
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <div>Total: $<span id="cart-total">0.00</span>
+    </div>
+</div>
+
+<footer>
+  <p>Телефон за поръчки: 088888888</p>
+  <p><a href="https://mail.google.com/mail/u/0/">Имейл: 123@gmail.com</a></p>
+  <p>Author: Your Name</p>
+</footer>
+</body>
+</html>
